@@ -347,7 +347,12 @@ footer {
 }
 .intro img {
   width: 100%;
-  margin-top: 25%;
+  margin-top: 14%;
+}
+@media (max-width: 500px) {
+  .intro img {
+    margin-top: 25%;
+  }
 }
 .intro .header-text {
   padding: 2rem;
