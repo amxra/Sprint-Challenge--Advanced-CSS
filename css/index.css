@@ -246,3 +246,13 @@ footer {
   height: auto;
   border-radius: 10px;
 }
+.intro {
+  margin: 0 auto;
+  width: 95%;
+}
+.intro img {
+  width: 100%;
+}
+.intro .header-text {
+  padding: 2rem;
+}
