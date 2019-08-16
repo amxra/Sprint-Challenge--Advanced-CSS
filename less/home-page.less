@@ -2,6 +2,10 @@
 
 .home {
 
+  @media (max-width:500px){
+    width: 90%;
+}
+
   .intro {
 
     h2 {
@@ -72,6 +76,7 @@
       }
     }
   }
+
 }// home
 
 
@@ -80,10 +85,14 @@
 .intro{
   margin: 0 auto;
   width: 95%;
+  @media (max-width:500px){
+    .imageWidth();
+   }
 
   img{
    .imageWidth();
   }
+
 
   .header-text{
     padding: 2rem;

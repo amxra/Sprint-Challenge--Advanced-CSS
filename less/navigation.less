@@ -1,9 +1,11 @@
 // Navigation code here
 
+
 nav{
     text-align: center;
     padding: 1rem 0;
     background-color: @porcelain;
+
 
     h1{
         font-size: @desktopH1FontSize;
@@ -13,6 +15,10 @@ nav{
         width: 65%;
         padding: 2rem 0 0 2rem;
         margin: 0 auto;
+        
+        @media (max-width:500px){
+            width: 100%;
+        }
 
         ul{
             display: flex;

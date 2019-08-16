@@ -1,3 +1,4 @@
+@phone ~:"(max-width:500px)";
 .imageWidth {
   width: 100%;
 }
@@ -176,6 +177,11 @@ nav .site-navigation-bar {
   padding: 2rem 0 0 2rem;
   margin: 0 auto;
 }
+@media (max-width: 500px) {
+  nav .site-navigation-bar {
+    width: 100%;
+  }
+}
 nav .site-navigation-bar ul {
   display: flex;
   justify-content: space-evenly;
@@ -197,6 +203,11 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+@media (max-width: 500px) {
+  .home {
+    width: 90%;
+  }
 }
 .home .intro h2 {
   padding: 15px;
@@ -252,6 +263,11 @@ footer {
 .intro {
   margin: 0 auto;
   width: 95%;
+}
+@media (max-width: 500px) {
+  .intro {
+    width: 100%;
+  }
 }
 .intro img {
   width: 100%;
