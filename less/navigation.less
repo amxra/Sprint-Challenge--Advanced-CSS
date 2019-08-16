@@ -1,1 +1,33 @@
 // Navigation code here
+
+nav{
+    text-align: center;
+    padding: 1rem 0;
+    background-color: @porcelain;
+
+    h1{
+        font-size: @desktopH1FontSize;
+    }
+
+    .site-navigation-bar{
+        width: 65%;
+        padding: 2rem 0 0 2rem;
+        margin: 0 auto;
+
+        ul{
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        ul li{
+            display: inline;
+
+            a{
+                text-decoration: none;
+                color: black;
+                font-size: @desktopPFontSize;
+            }
+        }
+    }
+}
+

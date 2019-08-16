@@ -160,6 +160,31 @@ p {
   width: 100%;
   margin: 0 auto;
 }
+nav {
+  text-align: center;
+  padding: 1rem 0;
+  background-color: #F6F7F8;
+}
+nav h1 {
+  font-size: 5rem;
+}
+nav .site-navigation-bar {
+  width: 65%;
+  padding: 2rem 0 0 2rem;
+  margin: 0 auto;
+}
+nav .site-navigation-bar ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+nav .site-navigation-bar ul li {
+  display: inline;
+}
+nav .site-navigation-bar ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.5rem;
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
