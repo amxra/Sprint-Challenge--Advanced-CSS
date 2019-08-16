@@ -167,7 +167,10 @@ p {
 nav {
   text-align: center;
   padding: 1rem 0;
-  background-color: #F6F7F8;
+  width: 100%;
+  background-color: rgba(246, 247, 248, 0.5);
+  position: fixed;
+  left: 0;
 }
 nav h1 {
   font-size: 5rem;
@@ -320,6 +323,7 @@ footer {
 }
 .intro img {
   width: 100%;
+  margin-top: 25%;
 }
 .intro .header-text {
   padding: 2rem;
